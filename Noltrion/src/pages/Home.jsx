@@ -1,20 +1,21 @@
 
+
 import React from "react";
 import { motion } from "framer-motion";
-import Logo from "../assets/WhatsApp Image 2025-11-23 at 17.33.53_3223575b.jpg"; 
+import Logo from "../assets/WhatsApp_Image_2025-11-23_at_5.33.49_PM-removebg-preview-removebg-preview[1].png"; 
 
 export default function Home() {
   return (
     <div className="relative min-h-screen w-full bg-white flex items-center justify-center px-4 overflow-hidden">
 
-      {/* ---- Logo in Top Left Corner ---- */}
+      {/* ---- Logo in Top Left Corner (Bigger) ---- */}
       <motion.img
         src={Logo}
         alt="Noltrion Logo"
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
-        className="absolute top-6 left-6 w-28 md:w-32 drop-shadow-xl z-50"
+        className="absolute top-6 left-6 w-40 md:w-48 lg:w-56 drop-shadow-xl z-50"
       />
 
       {/* ---- Star Background ---- */}
